@@ -20,7 +20,7 @@ permissions:
 
 jobs:
   copr-publish:
-    runs-on: namespace-profile-grokbot-lite
+    runs-on: blacksmith-2vcpu-ubuntu-2404
     steps:
       - name: Trigger COPR rebuild
         env:
